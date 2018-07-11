@@ -1,0 +1,27 @@
+
+RewriteEngine on #htaccess dosyası başlatıyor.
+
+
+
+#RewriteCond %{HTTP_HOST} ^siteadi.com.tr [NC]
+#RewriteRule ^(.*)$ http://www.siteadi.com.tr/$1 [L,R=301,NC] 
+#site www yazılmadan açılmasını engelliyor.
+
+
+
+
+#ErrorDocument 404 http://http://localhost/+%20PHP-Siteler/OriginalDesingV4-%20PDO/404.php
+#olmayan sayfa olursa 404.php gider.
+
+
+
+RewriteRule ^hakkimizda$ hakkimizda.php [NC,L] #hakkimizda.php sayfasını hakkimizda olarakta açar.
+RewriteRule ^arama$ arama.php [NC,L]
+RewriteRule ^bizeulasin$ iletisim.php [NC,L]
+RewriteRule ^haberler$ haberler.php [NC,L]
+RewriteRule ^galeri$ galeri.php [NC,L] #sayfalama yapınca diğer sayfalara geçişi sağlar. 
+
+
+RewriteRule ^haber-([0-9a-zA-Z-_]+)-([0-9]+)$ haber-detay.php?sef=$1&icerik_id=$2 [L,QSA]
+RewriteRule ^sayfa-([0-9a-zA-Z-_]+)-([0-9]+)$ menu-detay.php?sef=$1&menu_id=$2 [L,QSA]
+

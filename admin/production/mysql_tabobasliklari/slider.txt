@@ -1,0 +1,8 @@
+slider_tablosu
+
+slider_id
+slider_ad
+slider_resimyol
+slider_link
+slider_sira
+slider_durum

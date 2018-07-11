@@ -1,0 +1,36 @@
+Ayarlar Tablo = 
+
+Genel Ayarlar
+ayar_logo
+ayar_siteurl
+ayar_title
+ayar_description
+ayar_keywords
+ayar_author
+
+İletişim Ayarları
+ayar_tel
+ayar_gsm
+ayar_fax
+ayar_mail
+ayar_adres
+ayar_ilce
+ayar_il
+ayar_mesai
+
+Api Ayarları
+ayar_recapctha
+ayar_googlemap
+ayar_analystic
+
+Sosyal Medya Ayarları
+ayar_facebook
+ayar_twitter
+ayar_youtube
+ayar_google
+
+Mail Ayarları
+ayar_smtphost
+ayar_smtpuser
+ayar_smtppassword
+ayar_smtpport

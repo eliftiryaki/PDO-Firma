@@ -1,0 +1,11 @@
+menu tablos
+
+menu_id
+menu_ust
+menu_ad
+menu_detay
+menu_url
+menu_kategori
+
+menu_sira
+menu_durum

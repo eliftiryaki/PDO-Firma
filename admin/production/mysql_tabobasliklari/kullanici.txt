@@ -1,0 +1,9 @@
+kullanici tablo
+
+kullanici_id
+kullanici_zaman
+kullanici_ad
+kullanici_password
+kullanici_adsoyad
+kullanici_yetki
+kullanici_durum

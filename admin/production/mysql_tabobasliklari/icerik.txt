@@ -1,0 +1,9 @@
+Ýçerik_Tablosu
+
+icerik_id
+icerik_zaman
+icerik_resim
+icerik_ad
+icerik_detay
+icerik_keyword
+icerik_durum
